@@ -14,7 +14,10 @@ public class StudentSelector {
 
     public String GetRandomStudent() {
         var students = studentList.keySet().toArray();
-        int randomStudent = new Random().nextInt(students.length);
+        int randomStudent = 0;
+        do {
+            randomStudent = new Random().nextInt(students.length);
+        } while (studentList.get((String) students[randomStudent]) != -1);
         return (String) students[randomStudent];
     }
 
