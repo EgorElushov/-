@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9465ed0d-0f51-4fe6-bb89-44cbcb782c40" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hw1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hw1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1_task3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1_task3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1_task3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1_task3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1_task3/hw1_task3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1_task3/out/production/hw1_task3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1_task3/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/hw2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/out/production/hw2/ConsoleInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/out/production/hw2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/out/production/hw2/StudentSelector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/src/ConsoleInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/src/StudentSelector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +46,7 @@
       <updated>1670064817252</updated>
       <workItem from="1670064818383" duration="774000" />
       <workItem from="1670080130982" duration="777000" />
-      <workItem from="1670104428057" duration="28456000" />
+      <workItem from="1670104428057" duration="28910000" />
     </task>
     <servers />
   </component>

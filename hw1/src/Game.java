@@ -90,11 +90,11 @@ public class Game {
         var gameScore = field.checkGameOver();
         if (gameScore != 0) {
             if (currentTurn == 1) {
-                System.out.println("Win 1 player, score: " + gameScore);
-                maxFirstPlayer = Math.max(maxFirstPlayer, gameScore);
-            } else {
                 System.out.println("Win 2 player, score: " + gameScore);
                 maxSecondPlayer = Math.max(maxSecondPlayer, gameScore);
+            } else {
+                System.out.println("Win 1 player, score: " + gameScore);
+                maxFirstPlayer = Math.max(maxFirstPlayer, gameScore);
             }
             System.out.println("Max score for 1 player: " + maxFirstPlayer);
             System.out.println("Max score for 2 player: " + maxSecondPlayer);
