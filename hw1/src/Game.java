@@ -9,8 +9,8 @@ import java.util.Stack;
 public class Game {
     private final Player firstPlayer;
     private final Player secondPlayer;
-    private int maxFirstPlayer = 0;
-    private int maxSecondPlayer = 0;
+    private static int MAX_FIRST_PLAYER = 0;
+    private static int MAX_SECOND_PLAYER = 0;
     private final GameField field;
     private int currentTurn;
 
@@ -91,13 +91,13 @@ public class Game {
         if (gameScore != 0) {
             if (currentTurn == 1) {
                 System.out.println("Win 2 player, score: " + gameScore);
-                maxSecondPlayer = Math.max(maxSecondPlayer, gameScore);
+                MAX_SECOND_PLAYER = Math.max(MAX_SECOND_PLAYER, gameScore);
             } else {
                 System.out.println("Win 1 player, score: " + gameScore);
-                maxFirstPlayer = Math.max(maxFirstPlayer, gameScore);
+                MAX_FIRST_PLAYER = Math.max(MAX_FIRST_PLAYER, gameScore);
             }
-            System.out.println("Max score for 1 player: " + maxFirstPlayer);
-            System.out.println("Max score for 2 player: " + maxSecondPlayer);
+            System.out.println("Max score for 1 player: " + MAX_FIRST_PLAYER);
+            System.out.println("Max score for 2 player: " + MAX_SECOND_PLAYER);
         }
         return field.checkGameOver();
     }
