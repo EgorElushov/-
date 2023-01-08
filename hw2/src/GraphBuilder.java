@@ -62,6 +62,7 @@ public class GraphBuilder {
     private void dfs(Path currentVertex) {
         if (color.get(currentVertex) == 1) {
             System.out.println("Files cycled, can't sort and concatenate list");
+            System.out.println("Broken file is: " + currentVertex.toString());
             System.exit(0);
         }
         if (color.get(currentVertex) == 2) {
