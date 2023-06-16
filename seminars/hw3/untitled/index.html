@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Socket.io example</title>
+    <script src="/node_modules/socket.io-client/dist/socket.io.js"></script>
+    <script>
+        let socket = io();
+
+        socket.on('message', (message) =>
+            document.getElementById("server_message").textContent += message
+        );
+
+        function sendMessageToServer() {
+            socket.emit('message', document.getElementById("message").value);
+        }
+    </script>
+</head>
+<body>
+<input id="message">
+<button onclick="sendMessageToServer()">
+    Send message to server
+</button>
+<label id="server_message"></label>
+</body>
+</html>
